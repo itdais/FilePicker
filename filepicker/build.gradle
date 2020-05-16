@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-//apply plugin: 'com.novoda.bintray-release'
+
 apply plugin: 'com.github.dcendents.android-maven' //this way we can find the android-maven in jcenter
 group="com.github.itdais"
 android {
@@ -20,18 +20,6 @@ android {
         }
     }
 }
-
-// jcenter configuration for novoda's bintray-release
-// $ ./gradlew clean build bintrayUpload -PbintrayUser=BINTRAY_USERNAME -PbintrayKey=BINTRAY_KEY -PdryRun=false
-//publish {
-//    userOrg = 'dingjw1992'
-//    groupId = 'com.itdais'
-//    artifactId = 'filepicker'
-//    publishVersion = '1.0.0'
-//    desc = 'this is file select for android'
-//    website = 'https://github.com/itdais/FilePicker'
-//}
-
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
