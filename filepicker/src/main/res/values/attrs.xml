@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="fp.toolbar" format="reference" />
+    <attr name="fp.placeholder" format="reference|color" />
+    <attr name="fp.emptyView" format="reference" />
+    <attr name="fp.emptyView.textColor" format="reference|color" />
+    <attr name="fp.pageBg" format="reference|color" />
+    <attr name="fp.item.textcolor" format="reference|color" />
+    <attr name="fp.item.hintcolor" format="reference|color" />
+    <attr name="fp.item.pathcolor" format="reference|color" />
+</resources>

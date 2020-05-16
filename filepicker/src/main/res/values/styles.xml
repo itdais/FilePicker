@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- ===================================== Theme Default ===================================== -->
+    <style name="FilePicker.Default" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="fp.toolbar">@style/Toolbar.Default</item>
+        <item name="fp.emptyView">@drawable/fp_empty_default</item>
+        <item name="fp.emptyView.textColor">@color/default_album_empty_view</item>
+        <item name="fp.placeholder">@color/default_item_placeholder</item>
+        <item name="fp.pageBg">@color/default_page_bg</item>
+        <item name="fp.item.textcolor">@color/default_item_textcolor</item>
+        <item name="fp.item.hintcolor">@color/default_item_hintcolor</item>
+        <item name="fp.item.pathcolor">@color/default_item_pathcolor</item>
+    </style>
+
+    <style name="Toolbar.Default" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+    <!-- ================================== 白底黑字toolbar ================================== -->
+    <style name="Toolbar.Light" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+
+    </style>
+
+    <style name="Popup.Default" parent="Widget.AppCompat.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/default_album_popup_bg</item>
+    </style>
+    <!-- ===================================== 暗黑模式 ===================================== -->
+    <style name="FilePicker.Dracula" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/dracula_primary</item>
+        <item name="colorPrimaryDark">@color/dracula_primary_dark</item>
+        <item name="fp.toolbar">@style/Toolbar.Dracula</item>
+        <item name="fp.emptyView">@drawable/fp_empty_dracula</item>
+        <item name="fp.emptyView.textColor">@color/dracula_album_empty_view</item>
+        <item name="fp.placeholder">@color/dracula_item_placeholder</item>
+        <item name="fp.pageBg">@color/dracula_page_bg</item>
+        <item name="fp.item.textcolor">@color/dracula_item_textcolor</item>
+        <item name="fp.item.hintcolor">@color/dracula_item_hintcolor</item>
+        <item name="fp.item.pathcolor">@color/dracula_item_pathcolor</item>
+    </style>
+
+    <style name="Toolbar.Dracula" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="Popup.Dracula" parent="Widget.AppCompat.ListPopupWindow">
+        <item name="android:popupBackground">@color/dracula_album_popup_bg</item>
+    </style>
+
+</resources>
